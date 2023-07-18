@@ -53,15 +53,15 @@ class Service {
 class UniversitySelectionPage extends StatelessWidget {
   final List<University> universities = [
     University(
-      'University A',
-      'logo_university_a.png',
+      'UAC',
+      'uac.jpg',
       [
-        School('School X', 'logo_school_x.png'),
-        School('School Y', 'logo_school_y.png'),
-        School('School Z', 'logo_school_z.png'),
+        School('EPAC', 'epac.jpg'),
+        School('INE', 'logo_school_y.png'),
+        School('IFRI', 'logo_school_z.png'),
       ],
       [
-        Service('Service 1', 'https://example.com/service1'),
+        Service('Service 1', 'https://storyset.com'),
         Service('Service 2', 'https://example.com/service2'),
         Service('Service 3', 'https://example.com/service3'),
       ],
